@@ -36,7 +36,7 @@ public class BaseClass {
 			DesiredCapabilities cap = new DesiredCapabilities();
 			cap.setPlatform(Platform.LINUX);	
 			cap.setBrowserName("chrome");
-			driver = new RemoteWebDriver(new URL("http://18.205.27.15:4444"),cap);
+			driver = new RemoteWebDriver(new URL("http://3.87.30.31:4444"),cap);
 		}
 		
 		else {
