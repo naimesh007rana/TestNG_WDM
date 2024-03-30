@@ -21,7 +21,7 @@ public class BaseClass {
 	RemoteWebDriver driver;
 	
 	private ThreadLocal<RemoteWebDriver> threadLocalDriver = new ThreadLocal<>();
-
+//before methode//
 	@BeforeMethod
 	public void SetUp() throws MalformedURLException, InterruptedException {
 
