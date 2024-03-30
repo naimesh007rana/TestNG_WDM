@@ -36,6 +36,8 @@ public class BaseClass {
 			DesiredCapabilities cap = new DesiredCapabilities();
 			cap.setPlatform(Platform.LINUX);	
 			cap.setBrowserName("chrome");
+
+			//selenium grid URL//
 			driver = new RemoteWebDriver(new URL("http://3.87.30.31:4444"),cap);
 		}
 		
